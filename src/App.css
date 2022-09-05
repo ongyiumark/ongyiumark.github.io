@@ -1,8 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
 #root {
   max-width: 1280px;
+  padding: 0;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+.App {
+  position: relative;
+}
+
+.App > div {
+  scroll-snap-align: start;
+}
+
+/* Utility Classes */
+.highlight--blue {
+  color: #145C9E;
+}
+
+.highlight--green {
+  color: #4D8B31;
 }
 
 /*
