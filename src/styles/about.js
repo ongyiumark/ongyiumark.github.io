@@ -1,38 +1,52 @@
 const About = {
-    height: "100vh",
-    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
 }
 
-const container = {
+const aboutContainer = {
     display: "flex",
     alignItems: "center",
     position: "absolute",
-    top: "50%",
-    transform: "translateY(-50%)"
+}
+
+const profile = {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center"
+}
+
+const profileImg = {
+    maxWidth: "200px",
+    borderRadius: "100%",
+    paddingBlock: "20px"
 }
 
 const title = {
     margin: "0 auto",
     minWidth: "475px",
     width: "30%",
-    fontSize: "70px",
+    fontSize: "60px",
     lineHeight: "60px",
-    fontWeight: "bold",
+    fontWeight: "700",
 }
 
-const name = {
+const profileName = {
     margin: "0"
 }
 
 const subtitle = {
     width: "50%",
     margin: "0 auto",
+    paddingInline: "20px"
 }
 
 export const styles = {
     About,
-    container,
+    aboutContainer,
+    profile,
     title,
     subtitle,
-    name,
+    profileName,
+    profileImg,
 }

@@ -9,6 +9,7 @@ html {
 
 #root {
   max-width: 1280px;
+  min-width: 960px;
   padding: 0;
   margin: 0 auto;
   text-align: center;
@@ -20,6 +21,7 @@ html {
 
 .App > div {
   scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 /* Utility Classes */
@@ -29,6 +31,11 @@ html {
 
 .highlight--green {
   color: #4D8B31;
+}
+
+.page {
+  height: 100vh;
+  position: relative;
 }
 
 /*

@@ -1,6 +1,4 @@
 const LastPage = {
-    height: "100vh",
-    position: "relative",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -10,7 +8,7 @@ const LastPage = {
 const title = {
     fontSize: "70px",
     lineHeight: "60px",
-    fontWeight: "bold",
+    fontWeight: "700",
     padding: "0",
     margin: "0"
 }
